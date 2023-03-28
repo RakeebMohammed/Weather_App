@@ -1,0 +1,45 @@
+.weather{
+    margin:2rem 10rem;
+ border-radius:  20px;
+ border: 3px dashed grey;
+ padding:10px 60px 10px 60px
+}
+.title{
+    font-size: xx-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.weather form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.weather form input{
+    padding:5px 5px;
+    margin:5px; 
+    border:none;
+    border-bottom:2px dashed rgb(26, 174, 53)
+}
+.weather form input:focus{
+    outline:none;
+    border-bottom:3px dashed rgb(174, 26, 36)
+
+}
+.weather form button{
+    background-color:aqua;
+    border-radius:20px;
+    margin-left: 15px;
+padding:10px;
+    color: rgb(255, 71, 71);
+    font-size: 15px;
+    border:none;
+cursor:pointer;
+}
+.weather form button:hover{
+    background-color: transparent;
+    color:black;
+    border:2px solid black;
+}
+.weather form button:focus{
+outline:none
+}
